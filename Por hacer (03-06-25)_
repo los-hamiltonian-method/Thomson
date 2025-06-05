@@ -2,9 +2,10 @@ Por hacer (Actualizado 03-06-25):
 
 Para esta semana:
 - Ponerse al día:
-	* Terminar dimensionamiento
+	* Terminar dimensionamiento:
+	Breakdown voltage a las presiones que manejamos para determinar separación de placas
+	Revisar uniformidad del campo magnético con FEMM
 	* Compilar ecuaciones y restricciones
-	* Pulir planes
 	* Probar trabajos viejos (e.g., regulador de voltaje)
 	* Limpiar códigos
 * Recordar a Rich de guantes y máscaras para romper CRT

@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from scipy.optimize import curve_fit
 
-filename = "regulator_680uF.CSV"
+filename = "rectifier_680uF_mid_max.CSV"
 df = pd.read_csv(filename).dropna()
 
 fig, ax = plt.subplots()
