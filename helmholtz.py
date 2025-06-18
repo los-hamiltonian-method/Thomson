@@ -83,7 +83,7 @@ def graph():
 				 "Axial field $B_z$"]
 
 	# Unifromity threshold
-	threshold = 0.95
+	threshold = 0.8
 	ax_zip = zip(axs, ax_functions, ax_variables, ax_titles, ax_xlabels,
 				 ax_labels, ax_parameters)
 	for name, function, variable, title, xlabel, label, param in ax_zip:
