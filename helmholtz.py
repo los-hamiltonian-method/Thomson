@@ -83,7 +83,7 @@ def graph():
 				 "Axial field $B_z$"]
 
 	# Unifromity threshold
-	threshold = 0.8
+	threshold = 0.9
 	ax_zip = zip(axs, ax_functions, ax_variables, ax_titles, ax_xlabels,
 				 ax_labels, ax_parameters)
 	for name, function, variable, title, xlabel, label, param in ax_zip:
@@ -110,10 +110,8 @@ def graph():
 		axs[name].legend(loc='lower center')
 
 	plt.subplots_adjust(hspace=0.5, wspace=0.3)
-	plt.savefig("Figures/coils_field_uniformity.pdf")
-	plt.savefig("Figures/coils_field_uniformity.png", dpi=300)
+	plt.savefig(f"Figures/coils_field_uniformity_{threshold}.pdf")
+	plt.savefig(f"Figures/coils_field_uniformity_{threshold}.png", dpi=300)
 	plt.show()
 
 graph()
-
-
